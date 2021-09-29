@@ -1,3 +1,10 @@
+html, body {
+    width: 100vw;
+    max-width: 100%;
+  
+    overflow-x: hidden;
+  }
+
 #title{ /* .navbar */
     background-color: #ed4866; 
     color: white;
@@ -72,3 +79,117 @@
     float: left;
     overflow: hidden;
 } 
+
+
+/*  */
+#features{
+    margin: 120px 0;
+}
+
+.feature-content{
+    text-align: center;
+}
+
+.feature-content p{
+    width: 60%;
+    /* text-align: center; */
+    margin: 0 auto;
+
+}
+
+.feature-content h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feature-icons{
+    font-size: 60px;
+    color: #EE8173;
+}
+
+#testimonials, #press{
+    background-color: #EE8173;
+}
+/*  */
+#testimonials{
+    padding: 70px ;
+}
+.testimonials-itens {
+    color: #FFF;
+    text-align: center;
+}
+
+.testimonials-itens img{
+    border-radius: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.testimonials-itens h2 {
+    font-family: 'Times New Roman', Times, serif;
+    width: 45%;
+    margin: 0 auto;
+}
+
+/* .identification-field{
+    display: flex;
+    align-items: center;
+} */
+
+.identification-field em{
+    margin-left: 10px;
+    position: relative;
+    top: 15px;
+}
+
+#press img{
+    max-width: 180px;
+    margin: 0 15px 15px 15px;
+}
+/*  */
+
+#pricing{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.card{
+    margin: 20px;
+    max-width: 300px !important;
+    max-height: auto !important;
+}
+
+.botao-estilo{
+    padding: 6px 80px;
+}
+
+/* 
+ */
+
+ #cta {
+    background-color:#ed4866;
+    padding: 130px;
+    text-align: center;
+    
+ }
+
+ #cta h3{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin: 0 auto 50px;
+    width: 60%;
+ }
+
+ #cta button:nth-child(2){
+    margin: 20px;
+ }
+ /*  */
+
+ footer{
+     padding: 100px;
+     text-align: center;
+ }
