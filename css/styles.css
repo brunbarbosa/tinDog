@@ -25,7 +25,6 @@ html, body {
 
 .col-lg-6{
     overflow: hidden;
-    /* height: 550px; */
 }
 .col-lg-6 h1 {
     color:#FFF;
@@ -33,7 +32,6 @@ html, body {
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
     width: 60%;
-    /* margin: 0 auto; */
     margin-left: 150px;
     margin-top: 30px;
     
@@ -49,18 +47,11 @@ html, body {
     align-items: center;
 }
 
-@media screen and (min-widht:500px) {
-    .col-lg-6 button:nth-child(2){
-        margin: 0px;
-        
-     }
-    
-}
 
 .botao-topo button{
-    /* width: 170px;
-    height: 50px; */
-    /* font-size: 20px; */
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
     margin: 0;
 }
 .col-lg-6 button:nth-child(2){
@@ -73,49 +64,6 @@ html, body {
     height: 700px;
     margin-top: 30px;
 }
-
-@media screen and (max-widht: 700px) {}
-
-/* 
-
-#navbar-menu{
-    font-family: 'Times New Roman', Times, serif ;
-
-    font-size: 17px;
-}
-
-.dog-iphone{
-    transform: rotate(30deg);
-    height: 550px;
-    margin-left: 150px;
-    margin-top: 10%;
-}
-.btn-download{
-    height: 20%;
-    margin-left: 20%;
-    margin-top: 2%;
-}
-
-
-.topo-p1{
-
-    width: 50%;
-    height: 450px;
-    position: relative;
-    float: left;
-    display: inline-block;
-}
-
-
-.topo-p2{
-    
-    width: 50%;
-    height: 450px;
-    position: relative;
-    float: left;
-    overflow: hidden;
-}  */
-
 
 /*  */
 #features{
@@ -169,11 +117,6 @@ html, body {
     margin: 0 auto;
 }
 
-/* .identification-field{
-    display: flex;
-    align-items: center;
-} */
-
 .identification-field em{
     margin-left: 10px;
     position: relative;
@@ -217,8 +160,6 @@ html, body {
     padding: 6px 80px;
 }
 
-/* 
- */
 
  #cta {
     background-color:#ed4866;
